@@ -1,0 +1,68 @@
+/* Base table styling */
+.at-table {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Header styling */
+.at-table thead {
+    background-color: #007BFF; /* Vivid blue for headers */
+    color: white;
+}
+
+.at-table thead th {
+    padding: 12px;
+    border-bottom: 2px solid #0056b3; /* Darker blue for separation */
+}
+
+/* Body styling */
+.at-table tbody td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #b3d4fc; /* Light blue for subtle separation */
+}
+
+/* Row hover effect */
+.at-table tbody tr:hover {
+    background-color: #e0f0ff; /* Very light blue for hover */
+}
+
+/* Footer styling, if applicable */
+.at-table tfoot {
+    background-color: #0056b3;
+    color: white;
+}
+
+.at-table tfoot td {
+    padding: 12px;
+}
+
+/* Link styling */
+.at-table a {
+    color: #0056b3; /* Dark blue for links */
+    text-decoration: none;
+}
+
+.at-table a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling in the table */
+.button {
+    background-color: #007BFF; /* Vivid blue for buttons */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
